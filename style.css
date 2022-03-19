@@ -1,0 +1,89 @@
+body {
+    background: #d8d6d6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.header{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 10%;
+}
+
+.card {
+    background: #ffffff;
+    width: 25%;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+
+.img-avtar {
+    width: 35%;
+    height: 35%;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+
+}
+
+.avtar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-info h1 {
+    font-size: 25px;
+}
+
+.card-info p {
+    font-size: 20px;
+}
+
+.card-info button {
+    background-color: black;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.card-info button:hover{
+    background-color: #ffff;
+    color: black;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.media{
+    margin-top: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     margin-bottom: 20px;
+}
+
+.facebook:hover{
+    color: #4267B2;
+
+}
+.google:hover{
+    color: #4285F4 ;
+}
+.twitter:hover{
+    color:#00acee;
+}
+.instagram:hover{
+    color: #e2334b;
+}
+.linkedin:hover{
+    color: #0077b5;
+}
